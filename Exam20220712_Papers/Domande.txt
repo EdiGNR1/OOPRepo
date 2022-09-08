@@ -1,0 +1,112 @@
+Question: Cosa puo' dimostrare un test?
+Answer:
+1 - La presenza di difetti nel programma
+Question: In seguito a quale operazione SVN  incrementa il numero di revision?
+Answer:
+1 - Commit
+Question: A cosa serve il diamond operator '<>' ?
+Answer:
+3 - A indicare un'inferenza di tipo per una classe  generica
+Question: Cosa si trova nella sezione inferiore di una classe UML? / What is specified in the bottom section of a UML class?
+Answer:
+2 - Lista dei metodi / List of methods
+Question: Che operazione crea una copia locale di un repository SVN? What operation makes a local copy of an SVN repository?
+Answer:
+0 - Check-out
+Question: Quali di queste affermazioni sono valide per un'interfaccia Java? / Which among the following statements are correct for a Java interface?
+Answers:
+0 - Un'interfaccia puo' contenere dei metodi astratti / An interface can contain abstract methods
+2 - Un'interfaccia puo' essere vuota / An interface can be empty
+3 - Un'interfaccia puo' contenere dei metodi statici / An interface can contain static methods
+Question: Cosa contiene la sezione centrale di una classe UML? / What is present in the middle section of a UML class?
+Answer:
+2 - Attributi / Attributes
+Question: Che metodo usa SVN per risolvere conflitti? / What methods does SVN adopts to resolve conflics?
+Answer:
+4 - Copy-Modify-Merge
+Question: Qual e' la differenza tra verifica e convalida?
+Answer:
+2 - Una determina la qualita' l'altra l'utilita' del sistema
+Question: Per quali caratteristiche sono adatti i metodi agili?
+Answers:
+2 - La variabilita' dei requisiti
+4 - I tempi di sviluppo
+Question: Quali di queste affermazioni sono valide? / Which among the following statements are correct?
+Answers:
+0 - Lo sviluppo del software test-driven richiede che il programma sia testato dopo ogni modifica. / Test driven development demands testing a program after each change
+1 - Una baseline e' un insieme di versioni di configuration item / A baseline is a set of  configuration item versions
+2 - Il test black box non considera la struttura interna del codice / Black box testing does not  consider internal data structure
+Question: Quali afferamzioni sono vere per la sezione superiore di una classe UML? / Which statements are  true for the upper section of a UML class?
+Answer:
+1 - Contiene l'implementazione / Contains the implementation
+Question: Quali di queste affermazioni sono valide per una espressione lambda? / Which among the  following statements are correct for a lambda expression?
+Answers:
+0 - Una lambda restituisce un oggetto / A lambda returns an object
+1 - Una lambda implementa una interfaccia funzionale / A lambda implements a functional interface
+2 - Una lambda può sostituire qualsiasi method reference / A lambda can replace any method reference
+Question: Quando un metodo è dichiarato 'static'..
+Answer:
+[ ] A1.1 - ..puo' accedere qualsiasi attributo
+[ ] A1.2 - ..puo' accedere solo ad attributi static
+[ ] A1.3 - ..deve essere invocato tramite un reference
+[ X] A1.4 - ..non richiede un reference per essere invocato
+[ ] A1.5 - ..è visibile solo all'interno del package
+Question:Un errore (rispetto a failure) di un test JUnit:
+Answer:
+[ ] A3.1 - corrisponde ad una asserzione falsa
+[X] A3.2 - corrisponde ad una eccezione lanciata dal programma testato  
+[ ] A3.3 - non puo' corrispondere ad una linea con un assert 
+[ ] A3.4 - corrisponde ad throw nel programma testato
+[ ] A3.5 - corrisponde al metodo fail()
+Question: L'ereditarietà tra due classi permette di:
+Answer:
+[ ] A4.1 - rimuovere attributi
+[X ] A4.2 - aggiungere attributi
+[ ] A4.3 - rimuovere metodi
+[X ] A4.4 - ridefinire metodi
+[ X] A4.5 - aggiungere metodi
+Question: Quali di queste affermazioni sono valide? / Which among the following statements are correct?
+Answers:
+[ ] Stubs are units developed to drive other units during unit test
+[X ] In the V model the detailed specifications are used to devise the unit testing
+[X ] Code smell detects structures in the code that may negatively impact design quality
+[ ] Verification is often an internal process
+[ ] Exhaustive testing should be used in safety-critical products
+Question: Which among the following statements are correct for a comparator?
+Answers:
+[X ] A comparator implements method compareTo()
+[ ] A comparator implements method compare()
+[ ] A comparator contains abstract methods
+[X ] A comparator can be passed as argument to method sort() of class Collections
+[ ] A comparator must contain static methods only
+1.  Quali di queste affermazioni sono valide per il modificatore 'static'?
+[ ] A1.1 - Per un metodo significa che NON puo' accedere ad alcun attributo
+[X] A1.2 - Per un metodo significa che puo' accedere ad attributi solo static
+[X] A1.3 - Per una classe significa che puo' accedere agli attributi della classe contenitore
+[ ] A1.4 - Per una classe significa che NON puo' accedere agli attributi della classe contenitore
+[ ] A1.5 - Per un attributo significa che ogni oggetto ne ha una copia
+2. Per ottenere un ordinamento naturale degli oggetti di una classe che cosa serve fare?
+[X] A1.1 - implementare l'interfaccia Comparable
+[ ] A1.2 - implementare il metodo compare
+[ ] A1.3 - implementare il metodo compareTo
+[ ] A1.4 - ridefinire il metodo equals
+[ ] A1.5 - ridefinire il metodo hashCode
+3. Come si puo' testare un metodo che lancia un'eccezione?
+[ ] A3.1 - Si verifica solo il valore di ritorno
+[ ] A3.2 - Si verifica solo che lanci l'eccezione
+[ ] A3.3 - Non è possibile testare questo tipo di metodi
+[X] A3.4 - Si verificano i due casi con e senza eccezione
+[ ] A3.5 - Si può usare il parametro di test 'expected' per segnalare la possibile eccezione
+4.  Per l'associazione Persona --(possiede) Auto, sapendo che una persona in generale può non possedere l’automobile ma anche essere proprietario di più automobili, che molteplicità  si scrive vicino a Auto?
+[ ] A4.1 - 0,1
+[X] A4.2 - 0,*
+[ ] A4.3 - 1,1
+[ ] A4.4 - 1,*
+[ ] A4.5 - *,*	
+What is the purpose of the operator "->"? 
+[ ] A2.1 - to define a conditional expression 
+[ ] A2.2 - to define a reverse assignment 
+[X] A2.3 - to implement a functional interface 
+[ ] A2.4 - to define a method reference 
+[ ] A2.5 - to extend a class	
+
